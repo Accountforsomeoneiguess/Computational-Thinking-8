@@ -25,13 +25,13 @@ if school == "SAAS":
 else:
     print("Cool!")
 print(f"Well goodbye! I have to go now. It was nice meeting you {name}!")
-print("The End.")
-
-
-
-
-
-
+print(r" ____    _                      ____                   _   ")
+print(r"/_  _\  FJ___      ____        F ___J    _ ___      ___FJ  ")
+print(r"[J  L] J  __ `.   F __ J      J |___:   J '__ J    F __  L ")
+print(r" |  |  | |--| |  | _____J     | _____|  | |__| |  | |--| | ")
+print(r" F  J  F L  J J  F L___--.    F L____:  F L  J J  F L__J J ")
+print(r"J____LJ__L  J__LJ\______/F   J________LJ__L  J__LJ\____,__L")
+print(r"|____||__L  J__| J______F    |________||__L  J__| J____,__F")
 
 
 
@@ -48,6 +48,17 @@ print("The End.")
 
 
 # hi
+
+
+
+#         oo     ooo      oo             ooooooo   
+#       o888     888    o888 ooooooooo o88    888o 
+#        888 oooo888oooo 888               88888o  
+#        888     888     888 ooooooooo 88o    o888 
+#       o888o    888    o888o            88ooo88   
+#        
+
+
 
 
 
