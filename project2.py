@@ -99,7 +99,7 @@ if fish >= 10:
     print("Fish Person? You answered fish to every question? Why?")
 elif math > history:
     print("Math person! Good job!")
-elif history < math:
+elif history > math:
     print("History person! Good job!")
 else:
     print("Both! You are both a History and Math person! Good job!")
