@@ -52,23 +52,28 @@ window.tracer(0)
 ######################################################################
 # https://en.wikipedia.org/wiki/Web_colors#Extended_colors
 # Section 2 - Your code
-set_background("images")
+# my favorite season is summer
+set_background("summer")
 
+# squares for the background of the coat of arms
 draw_rectangle("green", -100, 100, 200, 200)
 draw_rectangle("white", 100, 100, 200, 200)
 draw_rectangle("white", -100, -100, 200, 200)
 draw_rectangle("blue", 100, -100, 200, 200)
+draw_rectangle("blue", 70, -200, 140, 60)
+draw_rectangle("white", -71, -200, 140, 60)
 
-s1 = create_sprite("trombon", 100, 100)
-s2 = create_sprite("peru", -100, -100)
-s3 = create_sprite("washinto", 100, -100)
-s4 = create_sprite("fish", -100, 100)
+sprite1 = create_sprite("trombon", 100, 100)
+sprite2 = create_sprite("peru", -100, -100)
+sprite3 = create_sprite("washinto", 100, -100)
+sprite4 = create_sprite("fish", -100, 100)
 
+# my name and motto
 message1 = create_sprite("alien",-200,200)
 message1.color("black")
 message1.write("Le o",font = ("Times New Roman", 40, "normal"))
 message1.hideturtle()
-message2 = create_sprite("alien",-200,-200)
+message2 = create_sprite("alien",-300,-290)
 message2.color("black")
 message2.write("I like music.",font = ("Times New Roman", 40, "normal"))
 message2.hideturtle()
