@@ -137,7 +137,7 @@ while True:
 
 	window.update()
 
-	if get_distance(spongebob, patrick) < 40:
+	if get_distance(spongebob, patrick) < 35:
 		break
 	
 
